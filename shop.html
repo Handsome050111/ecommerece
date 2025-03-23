@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="login.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Shop Our Products</h1>
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="img/AC.png" alt="Product 1" class="product-image">
+                <h3>AI Powered AC</h3>
+                <p>25$</p>
+                <button class="add-to-cart" data-id="1" data-name="AC" data-price="500">Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="img/coffee.jpeg" alt="Product 2" class="product-image">
+                <h3>Coffee Maker</h3>
+                <p>10$</p>
+                <button class="add-to-cart" data-id="2" data-name="Coffee Maker" data-price="1000">Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="img/deep-fryer.jpeg" alt="Product 3" class="product-image">
+                <h3>Deep Fryer</h3>
+                <p>20$</p>
+                <button class="add-to-cart" data-id="3" data-name="Deep Fryer" data-price="1500">Add to Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="img/fan.jpeg" alt="Product 4" class="product-image">
+                <h3>Padistel Fan</h3>
+                <p>30$</p>
+                <button class="add-to-cart" data-id="4" data-name="Padistel Fan" data-price="2500">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Cart Modal
+    <div id="cart-container">
+        <div id="cart-content">
+            <h3>Your Cart</h3>
+            <ul id="cart-list"></ul>
+            <p id="cart-total"></p>
+            <button id="checkout">Checkout</button>
+            <button id="cart-close">Close</button>
+        </div>
+    </div> -->
+    <footer>
+        <p>&copy; 2025 eBazar</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

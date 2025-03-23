@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="login.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Form Section -->
+    <section id="login-section">
+        <div class="login-container">
+            <h2>Login to Your Account</h2>
+            <form action="" method="POST" id="login-form">
+                <div class="input-group">
+                    <label for="username">Username or Email</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your username or email">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <div class="login-btn">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+            <div class="other-options">
+                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                <p><a href="#">Forgot Password?</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Returns & Refunds</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2025 E-commerce Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
